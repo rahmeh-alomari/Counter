@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Counter.module.css";
-import { FontAwesomeIcon } from "../Utility/fontawesome"; // Import both FontAwesomeIcon and faPlus from centralized file
+import { FontAwesomeIcon } from "../Utility/fontawesome"; 
 import {
   faPlus,
   faTrashArrowUp,

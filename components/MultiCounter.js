@@ -1,10 +1,8 @@
-// MultiCounter.js
 import React, { useState } from "react";
 import styles from "./MultiCounter.module.css";
 
 import Counter from "./Counter";
 import { FontAwesomeIcon } from "../Utility/fontawesome";
-// get our fontawesome imports
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 const MultiCounter = () => {
   const [counters, setCounters] = useState([{ id: 1, value: 0 }]);
